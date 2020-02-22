@@ -72,12 +72,15 @@ a:hover {
 .nav_button:hover {
     background-color: rgb(149, 228, 70);
     transition-duration: 0.4s;
-}
+    }
 
 .nav_button {
     background-color: rgb(236, 243, 159);
-    width: 120px;
-    height: 42px;
+    font-size: 18px;
+    width: 170px;
+    margin: 20px;
+    min-width: 48px;
+    min-height: 48px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(149,221,32,0.3), 0 6px 20px 0 rgba(149,221,32,0.5);
 }

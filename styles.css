@@ -196,13 +196,13 @@ button[type=submit], button[type=reset] {
     color: rgb(9, 32, 2);
 }
 
-.card p {
+.card1 p {
     font-size: 1.25rem;
     color: rgb(136, 226, 45);
     margin: 1rem;
 }
 
-.card p.intro1{
+.card1 p.intro1{
     font-size: 1.5rem;
     color: ivory;
 }
@@ -264,4 +264,39 @@ button[type=submit], button[type=reset] {
     object-fit: cover;
     width: 100%;
     height: 100%;
+
 }
+
+/*about page styling*/
+.about p {
+    clear:left;
+    margin: 0rem 1rem;
+}
+.about img {
+    margin-right: 1rem;
+    width: 30%;
+    height: auto;
+    float: left;
+}
+ /*Walks page styling*/
+
+ .top {
+    background-color: rgb(118, 185, 10);
+ }
+
+ .walks_container {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .walk {
+     width: 100%;
+     
+ }
+
+ .walk img {
+    margin-right: 1rem;
+    width: 100%;
+    height: auto;
+ }

@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
     </head>
 <body>
     <header>
-        <div class="fixed">
-            <img src="MyLogo.png" alt="Logo" class="logo">
-            <nav> 
-                <div class="navigation">
-                    <div class="box"><a href="./index.html">Home</a></div>
-                    <div class="box"><a href="./walks.html">Walks</a></div>
-                    <div class="box"><a href="./about.html">About</a></div>
-                    <div class="box"><a href="./contact.html">Contact</a></div>
-                 </div>   
-            </nav>
-        </div>
+        <nav>
+            <div class="logo"   >
+                <img src="MyLogo.png" alt="Logo">
+            </div>
+            <ul>
+                <li><a class="navLink" href="./index.html">Home</a></li>
+                <li><a class="navLink" href="./walks.html">Walks</a></li>
+                <li><a class="navLink" href="./about.html">About</a></li>
+                <li><a class="navLink" href="./contact.html">Contact</a></li>
+            </ul>   
+        </nav>
         <div class="banner">
             <h1>Contact me</h1>
             <p>Feel free to contact me with any question you may have.</p>
@@ -25,12 +26,12 @@
     </header>
 
     <main>
-        <div class="contactForm">
-           <div class="title">
+        <div class="contactForm card">
+           <div class="desc">
                 <h2>Contact form</h2>
-                <p class="intro">You can contact me by filling this form: </p>
+                <p class="intro1">You can contact me by filling this form: </p>
             </div>
-            <div class="form">
+            <div class="formMain">
                 <form action=# method="post" name="myForm">
                     <ul>
                     <li>
@@ -54,15 +55,15 @@
             </div>    
         </div>
 
-       <div class="contactOptions">
+       <div class="contactOptions card">
             <div class="email">
                 <h2>Email</h2>
-                <p class="intro">If you fancy to have it in your inbox, email me</p>
+                <p class="intro1">If you fancy to have it in your inbox, email me</p>
                 <p>AV@gmail.com</p>
             </div>
             <div class="mail">
                 <h2>Mail</h2>
-                <p class="intro">If you find handwritten letters charming in a way, mail me</p>
+                <p class="intro1">If you find handwritten letters charming in a way, mail me</p>
                 <p>15 Main street <br>City<br>Post Code</p>
             </div>
        </div>

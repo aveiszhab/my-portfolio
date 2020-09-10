@@ -18,5 +18,10 @@ For this static webpage only HTML and CSS was used. The webpage is responsive.
         * the clear button should clear the form, the submit button should generate a popup with the value of the input fields as we still don't know how to submit information to a backend system
 * Create an index page as entry point to our webpage, our Home
 
+# Screenshots
+## Mobile
+![Mobile screenshot](./Mobile.PNG)   
+## Desktop
+![Desktop screenshot](./Desktop.png)  
 
    
